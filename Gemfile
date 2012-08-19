@@ -36,3 +36,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'spree', '~> 1.1.0'
