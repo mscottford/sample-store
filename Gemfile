@@ -31,3 +31,5 @@ group :test do
 end
 
 gem 'spree', '~> 1.1.0'
+gem 'spree_related_products',
+  github: 'spree/spree_related_products'
