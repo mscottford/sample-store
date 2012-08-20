@@ -1,0 +1,11 @@
+<!-- insert_after "[data-hook='cart_form']" -->
+<div>
+  <% if @product.accessories.count > 0 %>
+    <h6 class='product-section-title'>Accessories</h6>
+    <ul>
+      <% @product.accessories.each do |accessory| %>
+        <li><%= link_to accessory.name, spree.product_path(accessory) %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
