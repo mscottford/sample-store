@@ -1,6 +1,6 @@
 <!-- insert_after "[data-hook='cart_form']" -->
 <div>
-  <% if @product.accessories.count > 0 %>
+  <% if @product.has_accessories? %>
     <h6 class='product-section-title'>Accessories</h6>
     <ul>
       <% @product.accessories.each do |accessory| %>
