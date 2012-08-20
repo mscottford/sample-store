@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'product accessories' do
-  it 'should list accessories on product page', :js => true do
+  it 'should list accessories on product page' do
     product = Spree::Product.create!(
       :name => 'Shirt',
       :price => 10,
