@@ -50,8 +50,9 @@ RSpec.configure do |config|
         'spree_countries', 'spree_zones',
         'spree_zone_members', 'spree_states',
         'spree_roles' ]}
-  else
-    DatabaseCleaner.strategy = :transaction
+    else
+      DatabaseCleaner.strategy = :transaction
+    end
   end
 
   config.before(:each) do
@@ -65,7 +66,5 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
   config.include Spree::Core::UrlHelpers
   config.include Spree::Core::TestingSupport::ControllerRequests
-
-end
 
 end
