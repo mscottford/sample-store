@@ -1,5 +1,5 @@
 Sample Store for SpreeConf Europe
 
-Slidedeck is available at http://mscottford.github.com/testing-spree-stores-and-extensions
+Slidedeck is available at http://mscottford.github.io/testing-spree-stores-and-extensions
 
 There are several branches, referenced in the slides. 
